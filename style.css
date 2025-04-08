@@ -1,0 +1,233 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* Form Styles */
+form {
+    width: 80%; /* Reduced width */
+    max-width: 400px; /* Added max-width for larger screens */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form input[type="text"], form input[type="password"], form input[type="email"], form input[type="number"], form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table a {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+table a:hover {
+    background-color: #0056b3;
+}
+
+/* Add Student Form */
+.add-student-form {
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.add-student-form input[type="text"],
+.add-student-form input[type="email"],
+.add-student-form input[type="number"],
+.add-student-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.add-student-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-student-form button:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Additional Styles for Admin Dashboard */
+.admin-actions {
+    margin-top: 20px;
+}
+
+.admin-actions a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #ffc107;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.admin-actions a:hover {
+    background-color: #e0a800;
+}
+
+/* View Students Page Table Specific Styles */
+.view-students-table {
+    width: 100%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.view-students-table table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.view-students-table th, .view-students-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.view-students-table th {
+    background-color: #f4f4f4;
+}
+
+.view-students-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.view-students-table a {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.view-students-table a:hover {
+    background-color: #0056b3;
+}
+
+/* Back to Dashboard Button */
+.back-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back-button .btn {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.back-button .btn:hover {
+    background-color: #0056b3;
+}
+
